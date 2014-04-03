@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    <item
+        android:id="@+id/AcercadeAyuda"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/AcercaDe"/>
+    <item 
+        android:title="@string/tituloMensajes"
+        android:showAsAction="ifRoom"     
+        android:id="@+id/Mensajes"
+        
+        />
+    <item 
+        android:title="Estaciones"
+        android:showAsAction="ifRoom"
+        android:id="@+id/Estaciones"
+        android:icon="@drawable/ic_action_down"
+        />
+
+</menu>
