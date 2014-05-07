@@ -57,96 +57,96 @@ public class ListaDescarga extends Activity {
 	  private void DesplegarListView(){
 		  ArrayList<ModelParada> listaParadas = new ArrayList<ModelParada>();
 		  //Insertamos los valores
-		  ModelParada parada = new ModelParada(1,"1-D Metro Santa Martha - Mixcoac",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(2,"9-C Centro Comercial Santa Fe - Tlacuitlapa/Puerta Grande",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(3,"11 Aragón - Metro Chapultepec por la Villa",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(4,"11-A Aragón - Metro Chapultepec por Av. 604",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(5,"12 Aragón - Panteón San Isidro",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(6,"13-A Metro Chapultepec - Torres de Padierna/Pegregal de San Nicolas",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(7,"17-E Metro Universidad - San Pedro Martir por Carretera Federal",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(8,"17-F Metro Tasqueña - San Pedro Martir por Fovisste",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(9,"18 Metro Cuatro Caminos - Col. Moctezuma 2a. Sección",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(10,"19 Metro el Rosario - Parque México por Cuitlahuac",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(11,"19-A Metro el Rosario - Parque México por San Luis",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(12,"23 Col- Tepetatal (El Charcho) - Metro la Raza",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(13,"25 Zacatenco - Metro Potrero",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(14,"27-A Reclusorio Norte - Metro Hidalgo/Alameda Central",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(15,"33 León de los Aldama - Metro Chabacano",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(16,"37 U.C.T.M. ATZACOALCO - Carmen Serdan",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(17,"39 Metro San Lazaro - Carmen Serdan",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(18,"39-A Metro San Lazaro - Xochimilco/Bosque de Nativitas por Cafetales",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(19,"39-B Metro San Lazaro - Xochimilco/Bosque de Nativitas por Miramontes",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(20,"43 San Felipe/León de los Aldama - Central de Abasto",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(21,"46-C Lienzo Charro/Santa Martha - Central de Abasto",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(22,"47-A Alameda Oriente - Xochimilco/Bosque de Nativitas",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(23,"52-C Metro Santa Martha - Metro Zapata",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(24,"57-A Metro Cuatro Caminos - Metro Constitución de 1917",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(25,"57-C Metro Cuatro Caminos - Metro Constitución de 1917",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(26,"59 Metro El Rosario - Metro Chapultepec",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(27,"59-A Metro El Rosario - Sullivan",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(28,"76 Centro Comercial Santa Fe - La Villa/Cantera por Palmas",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(29,"76-A Centro Comercial Santa Fe - La Villa/Cantera por Reforma",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(30,"101 Col. Lomas de Cuautepec - Metro Indios Verdes",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(31,"101-A Ampliación Malacates - La Villa Ferroplaza",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(32,"101-B Colonia Forestal - La Villa Ferroplaza",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(33,"101-D Col. Cocoyotes(La Brecha) - La Villa Ferroplaza",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(34,"102 Col. Cocoyotes(La Brecha) - Metro Indios Verdes",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(35,"103 Ampliación Malacates - Metro la Raza",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(36,"104 Col. El Tepetatal (El Charco) - Metro Potrero",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(37,"107 Metro el Rosario - Metro Tacuba ",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(38,"107-B Metro Martín Carrera - ",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(39,"108 Col. El Tepetatal (El Charco) - Metro Indios Verdes",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(40,"110 Chimalpa - Metro Tacubaya",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(41,"110-B San Lorenzo Acopilco - Metro Tacubaya",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(42,"110-C La Pila - Metro Tacubaya",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(43,"112 Ampliación Jalalpa - Metro Tacubaya",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(44,"113-B Col. Navidad (Las Piedras) - Metro Tacubaya",false);
-		  listaParadas.add(parada);
-		  parada = new ModelParada(45,"115 Jesus del Monte (Cuajimalpa) - Metro Tacubaya",false);
-		  listaParadas.add(parada);
+		  ModelParada ruta = new ModelParada(1,"1-D Metro Santa Martha - Mixcoac",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(2,"9-C Centro Comercial Santa Fe - Tlacuitlapa/Puerta Grande",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(3,"11 Aragón - Metro Chapultepec por la Villa",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(4,"11-A Aragón - Metro Chapultepec por Av. 604",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(5,"12 Aragón - Panteón San Isidro",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(6,"13-A Metro Chapultepec - Torres de Padierna/Pegregal de San Nicolas",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(7,"17-E Metro Universidad - San Pedro Martir por Carretera Federal",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(8,"17-F Metro Tasqueña - San Pedro Martir por Fovisste",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(9,"18 Metro Cuatro Caminos - Col. Moctezuma 2a. Sección",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(10,"19 Metro el Rosario - Parque México por Cuitlahuac",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(11,"19-A Metro el Rosario - Parque México por San Luis",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(12,"23 Col- Tepetatal (El Charcho) - Metro la Raza",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(13,"25 Zacatenco - Metro Potrero",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(14,"27-A Reclusorio Norte - Metro Hidalgo/Alameda Central",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(15,"33 León de los Aldama - Metro Chabacano",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(16,"37 U.C.T.M. ATZACOALCO - Carmen Serdan",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(17,"39 Metro San Lazaro - Carmen Serdan",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(18,"39-A Metro San Lazaro - Xochimilco/Bosque de Nativitas por Cafetales",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(19,"39-B Metro San Lazaro - Xochimilco/Bosque de Nativitas por Miramontes",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(20,"43 San Felipe/León de los Aldama - Central de Abasto",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(21,"46-C Lienzo Charro/Santa Martha - Central de Abasto",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(22,"47-A Alameda Oriente - Xochimilco/Bosque de Nativitas",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(23,"52-C Metro Santa Martha - Metro Zapata",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(24,"57-A Metro Cuatro Caminos - Metro Constitución de 1917",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(25,"57-C Metro Cuatro Caminos - Metro Constitución de 1917",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(26,"59 Metro El Rosario - Metro Chapultepec",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(27,"59-A Metro El Rosario - Sullivan",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(28,"76 Centro Comercial Santa Fe - La Villa/Cantera por Palmas",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(29,"76-A Centro Comercial Santa Fe - La Villa/Cantera por Reforma",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(30,"101 Col. Lomas de Cuautepec - Metro Indios Verdes",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(31,"101-A Ampliación Malacates - La Villa Ferroplaza",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(32,"101-B Colonia Forestal - La Villa Ferroplaza",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(33,"101-D Col. Cocoyotes(La Brecha) - La Villa Ferroplaza",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(34,"102 Col. Cocoyotes(La Brecha) - Metro Indios Verdes",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(35,"103 Ampliación Malacates - Metro la Raza",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(36,"104 Col. El Tepetatal (El Charco) - Metro Potrero",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(37,"107 Metro el Rosario - Metro Tacuba ",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(38,"107-B Metro Martín Carrera - ",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(39,"108 Col. El Tepetatal (El Charco) - Metro Indios Verdes",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(40,"110 Chimalpa - Metro Tacubaya",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(41,"110-B San Lorenzo Acopilco - Metro Tacubaya",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(42,"110-C La Pila - Metro Tacubaya",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(43,"112 Ampliación Jalalpa - Metro Tacubaya",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(44,"113-B Col. Navidad (Las Piedras) - Metro Tacubaya",false);
+		  listaParadas.add(ruta);
+		  ruta = new ModelParada(45,"115 Jesus del Monte (Cuajimalpa) - Metro Tacubaya",false);
+		  listaParadas.add(ruta);
 		  
 		//create an ArrayAdaptar from the String Array
 		  dataAdapter = new MyCustomAdapter(this, R.layout.parada_info, listaParadas);
@@ -170,13 +170,13 @@ public class ListaDescarga extends Activity {
 	  
 	  private class MyCustomAdapter extends ArrayAdapter<ModelParada>{
 
-		private ArrayList<ModelParada> listaParadas;
+		private ArrayList<ModelParada> listaRutas;
 
 		public MyCustomAdapter(Context context, int textViewResourceId,
 				ArrayList<ModelParada> listaParada) {
 			super(context, textViewResourceId,listaParada);
-			this.listaParadas = new ArrayList<ModelParada>();
-			this.listaParadas.addAll(listaParada);
+			this.listaRutas = new ArrayList<ModelParada>();
+			this.listaRutas.addAll(listaParada);
 			// TODO Auto-generated constructor stub
 		}
 		
@@ -214,7 +214,7 @@ public class ListaDescarga extends Activity {
 				holder = (ViewHolder) convertView.getTag();
 			}
 			
-			ModelParada parada = listaParadas.get(position);
+			ModelParada parada = listaRutas.get(position);
 			//holder.codigo.setText("("+ parada.obtenerCodigo()+")");
 			holder.nombre.setText(parada.obtenerNombre());
 			holder.nombre.setChecked(parada.isSelected());
@@ -240,9 +240,9 @@ public class ListaDescarga extends Activity {
 				StringBuffer responseText = new StringBuffer();
 			    
 			 
-			    ArrayList<ModelParada> listaParadas = dataAdapter.listaParadas;
-			    for(int i=0;i<listaParadas.size();i++){
-			     ModelParada parada = listaParadas.get(i);
+			    ArrayList<ModelParada> listaRutas = dataAdapter.listaRutas;
+			    for(int i=0;i<listaRutas.size();i++){
+			     ModelParada parada = listaRutas.get(i);
 			     if(parada.isSelected()){
 			    	 responseText.append("\n" + parada.obtenerCodigo()+ "\n" + parada.obtenerNombre());
 			    	 //Colocar validación de si ya se había seleccionado anteiormente

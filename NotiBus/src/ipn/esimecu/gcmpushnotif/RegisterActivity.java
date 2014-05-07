@@ -38,8 +38,19 @@ public class RegisterActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
         cd = new ConnectionDetector(getApplicationContext());
+        
         String[] archivos = fileList();
-      //Nos aseguramos de que tenga las dependencias correspondientes
+      
+      //Verificamos si hay Internet
+      		if(!cd.isConnectingToInternet()){
+      			//No hay conexión
+      			alert.showAlertDialog(RegisterActivity.this,
+      					"Error en la Conexión a Internet",
+      					"Por favor conecte a Internet", false);
+      			return;
+      		}
+        
+        //Nos aseguramos de que tenga las dependencias correspondientes
         GCMRegistrar.checkDevice(this);
  
         // Make sure the manifest was properly set - comment out this line

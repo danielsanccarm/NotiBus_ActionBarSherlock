@@ -4,18 +4,18 @@ package ipn.esimecu.gui;
 public class ModelParada {
 	private int codigo;
 	private String nombre;
-	  private boolean selected;
+	  private boolean seleccionado;
 
 	  public ModelParada(){
 		  codigo=-1;
 		  nombre=null;
-		  selected=false;
+		  seleccionado=false;
 	  }
 	  
 	  public ModelParada(int codigo, String nombre, boolean selected) {
 	    this.nombre = nombre;
 	    this.codigo=codigo;
-	    this.selected = selected;
+	    this.seleccionado = selected;
 	  }
 
 	  public int obtenerCodigo() {
@@ -35,10 +35,10 @@ public class ModelParada {
 	  }
 
 	  public boolean isSelected() {
-	    return selected;
+	    return seleccionado;
 	  }
 
 	  public void setSelected(boolean selected) {
-	    this.selected = selected;
+	    this.seleccionado = selected;
 	  }
 }

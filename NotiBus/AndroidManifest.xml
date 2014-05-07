@@ -3,7 +3,7 @@
     package="ipn.esimecu.gcmpushnotif"
     android:versionCode="1"
     android:versionName="1.0" >
-
+	<!-- Permiso para que únicamente esta app reciba los mensajes -->
     <permission
         android:name="ipn.esimecu.gcmpushnotif.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
